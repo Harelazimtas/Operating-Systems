@@ -11,9 +11,13 @@ the second close the FD will not be used. And after that the child execute the p
 Also father close the FD will not be used and wait the child write to pipe and read the answer.
 
 explain of file execveAndPipes-this is the main procees(father).
+
 execvColumn-child that check the legal of column. 
-execveLines-child that check the legal of line. 
+
+execveLines-child that check the legal of line.
+
 execveMatrix-child that check the legal of nine matrix(33). 
+
 demo.txt- legal sudoku. 
 wrong1 wrong2 wrong3 - wrong sudoku.
 
