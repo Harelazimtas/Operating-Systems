@@ -2,7 +2,7 @@
 In this projects I use fork,mmap,pipe.
 
 Operating-Systems
-In this project, i check sudoku by create three child and each child responsable of check rowcloumnmatrix 33.
+In this project, i check sudoku by create three child and each child responsable of check row cloumn matrix 3*3.
 
 The main process create three child and for each child create pipe,in addition one pipe for all. 
 Three pipe to read the sudoku and other to return if sudoku is legal. 
@@ -16,7 +16,7 @@ execvColumn-child that check the legal of column.
 
 execveLines-child that check the legal of line.
 
-execveMatrix-child that check the legal of nine matrix(33). 
+execveMatrix-child that check the legal of nine matrix(3*3). 
 
 demo.txt- legal sudoku. 
 wrong1 wrong2 wrong3 - wrong sudoku.
